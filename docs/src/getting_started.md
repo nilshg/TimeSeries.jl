@@ -1,10 +1,10 @@
 # Getting Started
 
 `TimeSeries` is a registered package.
-To add it to your Julia packages, simply do the following in REPL:
+To add it to your Julia packages, simply enter `pkg` mode in the REPL by pressing `]` and do:
 
 ```julia
-julia> Pkg.add("TimeSeries")
+pkg> add TimeSeries
 ```
 
 Throughout this tutorial, we'll be using historical financial data sets,
@@ -12,7 +12,7 @@ which are made available in the `MarketData` package. `MarketData` is also
 registered and can be added:
 
 ```julia
-julia> Pkg.add("MarketData")
+pkg> add MarketData
 ```
 
 To create dummy data without using the `MarketData` package, simply use
